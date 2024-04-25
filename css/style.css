@@ -421,10 +421,10 @@ color: #fff;
 }
 
 footer {
-    display: flex;
-    background-color: #000;
-    justify-content: center;
-
+   display: flex;
+   background-color: #000;
+   justify-content: center;
+   
 }
 
 
@@ -436,11 +436,7 @@ footer {
 }
 
 .map {
-    
-    padding: 0px;
-    margin: 0px;
-    bottom: 0%;
-    left: 0%;
+    width: 100%;
 }
 
 /*Classes*/
