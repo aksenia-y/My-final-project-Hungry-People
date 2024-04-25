@@ -475,39 +475,14 @@ footer {
     .block__item {
         flex: 0 1 600px;
     }
-
-
 /*Classes/ */
 
 
 
-@media all and (max-width:500px){
+@media all {
 
     img{
         width: 100%;
     }
 
 }
-/*
-@media all and (max-width: 820px) {
-    .page {
-        flex-wrap: wrap;
-    }
-}
-
-@media all and (max-width: 800px) {
-    .nav {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .section-about {
-        flex-wrap: wrap;
-    }
-
-    .header, .heading-page {
-        padding: 0;
-    }
-
-}
-
