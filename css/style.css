@@ -24,7 +24,7 @@ body {
     position: relative;
     padding-top: 25px;
     padding-bottom: 83px;
-    background: url(img/header-bg.jpg) no-repeat center center;
+    background: url(../img/header-bg.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -230,12 +230,12 @@ body {
 }
 
 .our-team-block {
-    background: url(img/our-team-bg.png) no-repeat center center;
+    background: url(../img/our-team-bg.png) no-repeat center center;
     background-size: cover;
     }
 
 .specialties {
-    background: url(img/specialties-bg.png) no-repeat center center;
+    background: url(../img/specialties-bg.png) no-repeat center center;
     background-size: cover;
     }
 
@@ -361,7 +361,7 @@ color: #fff;
     }
 
     .private-events-block {
-        background: url(img/private-events-bg.png) no-repeat center center;
+        background: url(../img/private-events-bg.png) no-repeat center center;
         background-size: cover;
     }
     
