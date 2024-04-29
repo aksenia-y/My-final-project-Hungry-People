@@ -452,7 +452,67 @@ iframe {
     width: 100%;
 }
 
+
+.flex li {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 100%;
+    color: rgba(51, 51, 51, 0.5);
+    padding-top: 30px; 
+    padding-left: 25px;
+
+}
+
+.name {
+    width: 420px;
+    height: 60px;
+    background: #e5e5e5;
+    border-radius: 15px;
+    background-color: #e5e5e5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.email {
+    width: 419px;
+    height: 60px;
+    background: #e5e5e5;
+    border-radius: 15px;
+    background-color: #e5e5e5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.phone {
+    width: 420px;
+    height: 60px;   
+    background: #e5e5e5;
+    border-radius: 15px;
+    background-color: #e5e5e5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+
+.message {
+    width: 1280px;
+    height: 120px;
+    border-color: #e5e5e5;
+    background-color: #e5e5e5;
+    border-radius: 15px;
+    background-color: #e5e5e5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.send-message {
+    width: 1280px;
+    height: 120px;   
+    background: #e8c300;
+    border-radius: 15px;
+    background-color:#e5e5e5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /*Classes*/
+
     .j-between {
         justify-content: space-between;
     }
@@ -494,7 +554,8 @@ iframe {
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
-}
+    }
+
 .name-email > * {
     flex: 1 1 50%;
 }
@@ -516,6 +577,7 @@ iframe {
     margin-bottom: 32px;
     column-gap: 67px;
 }
+
 .menu-list-desc .td {
     flex: 1 1 33.33%;
     width: 33.33%;
@@ -559,6 +621,7 @@ iframe {
 .third-cell,
 .third-cell + * {
     flex: 1 1 50%;
+
 }
 .third-cell li {
     display: -webkit-box;
